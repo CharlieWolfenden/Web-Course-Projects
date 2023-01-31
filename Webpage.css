@@ -1,0 +1,85 @@
+body{
+    background-image: url("/Users/charliewolfenden/github/Web Course Projects/Cohort Web-Urban-Fashion.html/background.png");
+    background-size: cover;
+    margin-bottom: 0px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    position: relative;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 51px;
+    font-size: 18px;
+    color: rgb(26, 26, 26);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 80;
+}
+#web-logo{
+    width: 185px;
+    padding: 51px;
+    padding-top: 14px;
+}
+#shopping-cart{
+    position: absolute;
+    right: 5px;
+    width: 53px;
+}
+.site-info{
+    display: flex;
+    flex-direction: row;
+}
+#social-media{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    justify-items: center;
+}
+#site-text{
+    padding-left: 125px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#site-text > h2{
+    font-weight: 100;
+    background-color: rgb(247, 115, 247);
+    color: white;
+    height: 28px;
+    width: 163px;
+    padding-top: 18px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 14px;
+}
+#site-text > img{
+    width: 53px;
+    padding: 18px;
+}
+#site-image > img{
+    width: 80%;
+    margin-bottom: 0px;
+    padding-left: 153px;
+}
+@media (max-width:768px){
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    #web-logo{
+        width: 180px;
+        height: 55px;
+    }
+}

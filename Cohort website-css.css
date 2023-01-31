@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(218, 214, 214)
+    }
+header{
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    height: 53px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+    padding-right: 35px;
+    margin: 0px;
+}
+.searchbar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 18px;
+    margin-left: 25px;
+    background-color: white;
+}
+.search-button{
+    background-color: rgb(232, 178, 77);
+    padding: 1.8px;
+    border-radius: 50%;
+    max-width: fit-content;
+}
+.search-button > img{
+    width: 28px;
+    margin: auto;
+    background-size: contain;
+}
+nav{
+    background-color: rgb(46, 40, 72);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 35px;
+    margin: 0px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    margin-top: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+header > h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 53px;
+}
+header > h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.flex-container1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(232, 178, 77)
+}
+.flex1{
+    margin: 14px;
+    padding: 8px;
+    background-color: azure;
+    background-image: url("https://images.unsplash.com/photo-1607082349566-187342175e2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 280px;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 14px solid;
+    border-color: rgb(182, 184, 184);
+    }
+.flex2{
+    margin: 14px;
+    padding: 8px;
+    background-image: url("https://images.unsplash.com/photo-1594273390521-3409664d9034?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 280px;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 14px solid;
+    border-color: rgb(182, 184, 184);
+}
+.flex3{
+    margin: 14px;
+    padding: 8px;
+    background-image: url("https://images.unsplash.com/photo-1631679706909-1844bbd07221?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1584&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 280px;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 14px solid;
+    border-color: rgb(182, 184, 184);
+}
+.flex4{
+    margin: 14px;
+    padding: 8px;
+    background-image: url("https://images.unsplash.com/photo-1524289286702-f07229da36f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 280px;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 14px solid;
+    border-color: rgb(182, 184, 184);
+}
+.social-media{
+    display: flex;
+    background-color: black;
+    border: 1px solid;
+    border-color: black;
+    justify-content: center;
+}
+.social-media > img{
+    width: 53px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: black;
+    justify-content: center;
+}
+.flexbox2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    justify-content: space-around;
+    padding-left: 53px;
+    padding-right: 53px;
+}
+.flex2-item{
+    width: 518px;
+    padding: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: white;
+    border: 1px solid;
+    border-color: azure;
+}
+.flex2-item h1{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (max-width:768px){
+    .flex-container1{
+        flex-direction: column;
+    }
+    header{
+        font-size: 25px;
+    }
+
+}

@@ -1,0 +1,128 @@
+body{
+    align-items: center;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.card1{
+    display: flex;
+    width: 225px;
+    height: 275px;
+    background-color: azure;
+    border: 1px solid;
+    position: relative;
+    margin: 5px;
+    border: 3px solid;
+    border-radius: 18px;
+}
+.card1 > img{
+        width: 128px;
+        height: 135px;
+        margin: auto;
+}
+.A1{
+   position: absolute;
+   color: red;
+   background-color: antiquewhite;
+   background-size: auto;
+   border: 3px solid;
+   border-radius: 50%;
+   padding-left: 5px;
+   padding-right: 5px;
+   top: 1px;
+   left: 1px;
+}
+.A2{
+   position: absolute;
+   color: red;
+   background-color: antiquewhite;
+   background-size: auto;
+   border: 3px solid;
+   border-radius: 50%;
+   padding-left: 5px;
+   padding-right: 5px;
+   bottom: 1px;
+   right: 1px;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 225px;
+    height: 275px;
+    background-color: azure;
+    border: 3px solid;
+    border-radius: 18px;
+    margin: 5px;
+}
+.card2 > img{
+    margin: auto;
+    width: 53px;
+    height: 55px;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 225px;
+    height: 275px;
+    background-color: azure;
+    border: 3px solid;
+    border-radius: 18px;
+    margin: 5px;
+}
+.card3 > img{
+    margin: auto;
+    width: 60px;
+    height: 55px;
+}
+.card4{
+    display: block;
+    position: relative;
+    width: 225px;
+    height: 275px;
+    background-color: azure;
+    border: 3px solid;
+    border-radius: 18px;
+    margin: 5px;
+}
+.card4 > img{
+    width: 60px;
+    height: 68px;
+    margin-top: 43px;
+    margin-left: 14px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+.card5{
+    display: block;
+    position: relative;
+    width: 225px;
+    height: 275px;
+    background-color: azure;
+    border: 3px solid;
+    border-radius: 18px;
+    margin: 5px;
+}
+.card5 > img{
+    width: 60px;
+    height: 55px;
+    margin-top: 46px;
+    margin-left: 14px;
+    margin-right: 5px;
+    margin-bottom: 6px;
+}
+#middle-image{
+    position: absolute;
+    width: 60px;
+    height: 55px;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

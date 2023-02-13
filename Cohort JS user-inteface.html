@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="Cohort JS user-interface.js" defer></script>
+        <link rel="stylesheet" href="Cohort JS user-interface.css">
+        <title>User Interface</title>
+    </head>
+<body>
+<div class="header">
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Support</li>
+            <li>Register</li>
+        </ul>
+    </nav>
+    <button id="search" type="click">
+        <input type="click" placeholder="search" name="search">
+    </button>
+</div>
+<div class="colour-banner">
+    <div id="red">red</div>
+    <div id="white">white</div>
+    <div id="green">green</div>
+</div>
+<div class="top-box">
+    <h1>Eurohub</h1>
+    <p>The simple, easy way to convert GBP to Euros.<br> 
+        Just type in the value, and get a result.</p>
+    <br>
+    <label for="gbpAmount">GBP (Pounds)</label>
+    <input type="number" name="gbpAmount" id="gbpAmount"
+    placeholder="GBP" oninput="euroValue(this.value)" onchange="euroValue(this.value)">
+    <br>
+    <p id="Euro-value">Euros: <span id="euroValue"></span></p>
+</div>
+<img id="euro-image" src="https://images.unsplash.com/photo-1580473828839-e8d2ea4f17e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80">
+<br>
+<div class="bottom-box">
+    <div id="row1">
+        <p>Subscribe to the website to get alerts over the current
+        exchange rate between GBP and Euro.</p>
+        </div>
+    <div id="row2">
+    <form>
+    <label for="firstName">First Name:</label>
+    <input type="text" name="firstName" id="firstName">
+    <br>
+    <label for="secondName">Second Name</label>
+    <input type="text" name="secondName" id="secondName">
+    <br>
+    <button id="subscribe-button" onclick="">Subscribe</button>
+    </form>
+    </div>
+    <br>
+</div>
+<br>
+<div class="colour-banner">
+    <div id="black">black</div>
+    <div id="red">red</div>
+    <div id="yellow">yellow</div>
+</div>
+<div class="footer">
+    <h2>www.eurohub.co.uk<br>
+    'Eurohub' is a registered trademark ©️</h2>
+</div>
+</body>
+</html>

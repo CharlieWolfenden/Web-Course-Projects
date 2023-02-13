@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(201, 199, 199);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(23, 171, 191);
+    justify-content: center;
+    font-size: 25px;
+    height: 55px;
+    width: 1400px;
+    align-items: center;
+    padding: 0px;
+    border: 1px solid;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    list-style: none;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    gap: 28px;
+}
+#search{
+    background-color: rgb(23, 171, 191);
+}
+h1{
+    font-size: 38px;
+    font-weight: bold;
+}
+.colour-banner{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    justify-content: center;
+}
+#red{
+    background-color: red;
+    height: 25px;
+    width: 385px;
+    color: red;
+}
+#white{
+    background-color: white;
+    height: 25px;
+    width: 385px;
+    color: white;
+}
+#green{
+    background-color: green;
+    height: 25px;
+    width: 385px;
+    color: green;
+}
+#black{
+    background-color: black;
+    height: 25px;
+    width: 385px;
+}
+#yellow{
+    background-color: yellow;
+    height: 25px;
+    width: 385px;
+    color: yellow;
+}
+.top-box{
+    margin: 8px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    font-size: 18px;
+    border: 3px solid;
+}
+#Euro-value{
+    background-color: azure;
+    width: 143px;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#euro-image{
+    display: block;
+    width: 28%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.bottom-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 8px;
+    padding: 8px;
+}
+#row1{
+    display: flex;
+    background-color: rgb(23, 171, 191);
+    align-items:center;
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid;
+    width: 350px;
+    height: 87px;
+}
+#row2{
+    display: flex;
+    background-color: rgb(23, 171, 191);
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid;
+    width: 280px;
+    height: 87px;
+}
+#subscribe-button{
+    background-color: rgb(236, 238, 238);
+    color: black;
+}
+h2{
+    font-size: 18px;
+}
+.footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(23, 171, 191);
+    padding: 14px;
+}
